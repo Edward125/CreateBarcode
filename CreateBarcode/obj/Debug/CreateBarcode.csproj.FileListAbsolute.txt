@@ -1,0 +1,10 @@
+D:\Edward\CreateBarcode\CreateBarcode\bin\Debug\CreateBarcode.exe
+D:\Edward\CreateBarcode\CreateBarcode\bin\Debug\CreateBarcode.pdb
+D:\Edward\CreateBarcode\CreateBarcode\obj\Debug\CreateBarcode.frmMain.resources
+D:\Edward\CreateBarcode\CreateBarcode\obj\Debug\CreateBarcode.Properties.Resources.resources
+D:\Edward\CreateBarcode\CreateBarcode\obj\Debug\CreateBarcode.csproj.GenerateResource.Cache
+D:\Edward\CreateBarcode\CreateBarcode\obj\Debug\CreateBarcode.exe
+D:\Edward\CreateBarcode\CreateBarcode\obj\Debug\CreateBarcode.pdb
+D:\Edward\CreateBarcode\CreateBarcode\bin\Debug\zxing.dll
+D:\Edward\CreateBarcode\CreateBarcode\bin\Debug\zxing.pdb
+D:\Edward\CreateBarcode\CreateBarcode\bin\Debug\zxing.xml
