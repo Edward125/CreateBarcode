@@ -8,3 +8,4 @@ D:\Edward\CreateBarcode\CreateBarcode\obj\Debug\CreateBarcode.pdb
 D:\Edward\CreateBarcode\CreateBarcode\bin\Debug\zxing.dll
 D:\Edward\CreateBarcode\CreateBarcode\bin\Debug\zxing.pdb
 D:\Edward\CreateBarcode\CreateBarcode\bin\Debug\zxing.xml
+D:\Edward\CreateBarcode\CreateBarcode\obj\Debug\CreateBarcode.frmOtherBarcodeFormat.resources

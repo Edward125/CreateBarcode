@@ -132,5 +132,46 @@ namespace CreateBarcode
             picCode128.Image = CreateBarCode(txtInput.Text.Trim(), BarcodeFormat.CODE_128, picCode128);
             pic2D.Image = CreateBarCode(txtInput.Text.Trim(), BarcodeFormat.DATA_MATRIX, pic2D);            
         }
+
+        private void btnOther_Click(object sender, EventArgs e)
+        {
+            Form f = new frmOtherBarcodeFormat();
+            f.ShowDialog();
+        }
+
+        private void pic2D_DoubleClick(object sender, EventArgs e)
+        {
+            if (pic2D.Image == null)
+            {
+
+            }
+            else
+            {
+                saveImg(pic2D, "DATA_MATRIX");
+            }
+        }
+
+        private void saveImg(PictureBox picbar,string barcodeformat)
+        {
+            //Bitmap bit = new Bitmap(picbar.BackgroundImage);
+            Image img = picbar.Image;
+            string filename = @"./" + barcodeformat + "-" + DateTime.Now.ToString("yyyyMMddhhmmss") + ".png";
+            //picbar.BackgroundImage.Save(filename);
+            img.Save(filename);
+            MessageBox.Show(barcodeformat  + "-" + DateTime.Now.ToString("yyyyMMddhhmmss") + ".png" + ",save OK");
+
+        }
+
+        private void picCode128_DoubleClick(object sender, EventArgs e)
+        {
+            if (picCode128.Image == null)
+            {
+
+            }
+            else
+            {
+                saveImg(picCode128, "CODE128");
+            }
+        }
     }
 }
